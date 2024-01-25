@@ -1,0 +1,20 @@
+// feedback_management/feedback_management/doctype/feedback/feedback.json
+
+{
+    "fields": [
+        {
+            "fieldname": "customer_name",
+            "label": "Customer Name",
+            "fieldtype": "Data",
+            "reqd": 1
+        },
+        {
+            "fieldname": "feedback_text",
+            "label": "Feedback Text",
+            "fieldtype": "Text",
+            "reqd": 1
+        }
+    ]
+}
+
+//Some common field types include "Data," "Text," "Select," "Date," "Link" (for linking to other DocTypes)
